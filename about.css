@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georgia', serif;
+}
+
+body {
+  background-color: #fcfbfb;
+  color: #d779f9;
+  line-height: 1.8;
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.text-section {
+  flex: 1.5;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  margin-right: 250px;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #6a0091;
+  border-bottom: 2px solid #d2b48c;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  /* text-align: center; */
+}
+
+.subheading {
+  font-size: 22px;
+  color: #020101;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.signature {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 30
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background-color: #d2b48c;
+  color: #111;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #f5deb3;
+  color: #000;
+}

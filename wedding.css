@@ -1,0 +1,139 @@
+* {
+    font-family: 'Georgia', serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#container {
+    width: 70%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.intro {
+    background-color: black;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    padding: 30px;
+    border: 25px solid #7851A9;
+}
+
+.intro img {
+    width: 50px;
+    height: 50px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #C0C0C0;
+}
+
+.person {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    
+}
+
+.intro p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #C0C0C0;
+    text-align: justify;
+}
+
+.imagegroup {
+    width: 250px;
+    height: 400px;
+    transition: transform 1s ease;
+}
+
+#boy {
+    width: 200px;
+    height: 300px;
+    transform: translateX(-20px);
+}
+
+#girl {
+    width: 200px;
+    height: 300px;
+    transform: translateX(20px);
+}
+
+.person:hover #boy {
+    transform: translateX(-10px);
+}
+
+.person:hover #girl {
+    transform: translateX(10px);
+}
+
+.intro.planning {
+    background-color: #fcf7f7;
+    color: #070606;
+    margin: 60px 100px;
+    padding: 100px;
+    border: 30px solid #88008d;
+
+}
+
+.intro.planning h1 {
+    color: #57005a;
+}
+
+.intro.planning p {
+    margin: 20px 0;
+    text-align: justify;
+    color: #540a2b;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.gallery-section {
+    margin: 0px 90px 0px 90px;
+    background-color: #C0C0C0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border: 10px solid #fefdfd;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: #a200c6;
+    color: rgb(10, 1, 1);
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #8d23ad;
+}
